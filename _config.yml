@@ -1,0 +1,22 @@
+title: "Hao Wang | Academic Homepage"
+name: "Hao Wang"
+description: "Academic homepage of Hao Wang"
+url: "https://S1wen7.github.io"
+baseurl: ""
+repository: "S1wen7/S1wen7.github.io"
+locale: "en-US"
+timezone: "Asia/Shanghai"
+
+author:
+  name: "Hao Wang"
+  avatar: "images/research-signal.png"
+  bio: "MSc student in Computer Control and Automation at Nanyang Technological University"
+  location: "Singapore / Nanjing"
+  email: "hao032@e.ntu.edu.sg"
+  github: "S1wen7"
+
+include:
+  - files
+
+exclude:
+  - README.md
