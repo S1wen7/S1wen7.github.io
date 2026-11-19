@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Academic homepage of Hao Wang, focusing on control systems, automation, machine learning, robotics, and signal processing.">
-    <title>Hao Wang | Academic Homepage</title>
+    <meta name="description" content="Hao Wang’s work in control and AI, from flight-control algorithms to blood pressure estimation and natural language processing.">
+    <title>Hao Wang | Control &amp; AI</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
@@ -53,19 +53,26 @@
         <section class="hero">
           <div class="hero-copy">
             <p class="eyebrow" data-i18n="hero.eyebrow">Academic Homepage</p>
-            <h2 data-i18n="hero.title">Control, automation, and intelligent sensing</h2>
-            <p data-i18n="hero.summary">
-              I am an MSc student at Nanyang Technological University, with training in electrical and electronic engineering, avionics, control systems, machine learning, robotics, and signal processing.
-            </p>
+            <h2 data-i18n="hero.title">Control &amp; AI</h2>
+            <p data-i18n="hero.summary">My background is in automation and control. During my internship at COMAC, I worked on flight-control algorithms and tested my calculations against experimental data. For my undergraduate project, I used machine learning to estimate blood pressure from pulse signals. I’m now pursuing an MSc in Computer Control and Automation at Nanyang Technological University in Singapore, where I fine-tuned a language model to classify sentiment in product reviews.</p>
           </div>
           <img src="images/research-signal.png" alt="Abstract signal processing and control systems visual">
         </section>
 
-        <section class="section" id="about">
-          <h2 data-i18n="about.title">About</h2>
-          <p data-i18n="about.body">
-            My current interests sit at the intersection of control systems, automation, intelligent sensing, and machine learning. I have worked on blood pressure estimation from PPG signals using machine learning and deep learning methods, and I previously interned in flight control systems at COMAC Shanghai Aircraft Design and Research Institute.
-          </p>
+        <section class="section" id="projects">
+          <h2 data-i18n="projects.title">Featured project</h2>
+          <div class="featured-project">
+            <article class="info-card">
+              <p class="date">2025.06</p>
+              <h3 data-i18n="projects.ppg.title">Estimating blood pressure from pulse signals</h3>
+              <ul>
+                <li data-i18n="projects.ppg.item1">I trained LightGBM on features extracted from individual pulses and a CNN–LSTM on waveform sequences.</li>
+                <li data-i18n="projects.ppg.item2">On patients held out from training, the two models achieved similar prediction errors.</li>
+                <li data-i18n="projects.ppg.item3">I used SHAP to examine which features contributed most to the LightGBM estimates.</li>
+              </ul>
+            </article>
+
+          </div>
         </section>
 
         <section class="section" id="education">
@@ -92,29 +99,7 @@
           </div>
         </section>
 
-        <section class="section" id="projects">
-          <h2 data-i18n="projects.title">Academic Projects</h2>
-          <div class="card-grid">
-            <article class="info-card">
-              <p class="date">2025.06</p>
-              <h3 data-i18n="projects.ppg.title">Quantifying Blood Pressure from PPG Signals Using Algorithms</h3>
-              <ul>
-                <li data-i18n="projects.ppg.item1">Processed PPG signals and extracted features for blood pressure estimation.</li>
-                <li data-i18n="projects.ppg.item2">Built LightGBM and hybrid CNN-LSTM models for prediction.</li>
-                <li data-i18n="projects.ppg.item3">Applied SHAP analysis to study interpretability and feature contributions.</li>
-              </ul>
-            </article>
-            <article class="info-card">
-              <p class="date">2022.05</p>
-              <h3 data-i18n="projects.robot.title">JIMU Robot Combat Competition</h3>
-              <ul>
-                <li data-i18n="projects.robot.item1">Designed and decomposed the robot's mechanical structure.</li>
-                <li data-i18n="projects.robot.item2">Built the combat structure for the robot platform.</li>
-                <li data-i18n="projects.robot.item3">Programmed Arduino modules for tracking and obstacle avoidance.</li>
-              </ul>
-            </article>
-          </div>
-        </section>
+
 
         <section class="section" id="experience">
           <h2 data-i18n="experience.title">Internship Experience</h2>
@@ -145,7 +130,7 @@
     </main>
 
     <footer class="footer">
-      <p data-i18n="footer.text">Built with a GitHub Pages academic homepage structure inspired by Academic Pages.</p>
+      <p data-i18n="footer.text">Hao Wang · Control &amp; AI</p>
     </footer>
 
     <script src="assets/js/lang.js"></script>
