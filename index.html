@@ -64,11 +64,15 @@
           <div class="featured-project">
             <article class="info-card">
               <p class="date">2025.06</p>
-              <h3 data-i18n="projects.ppg.title">Estimating blood pressure from pulse signals</h3>
+              <h3 data-i18n="projects.ppg.title">LightGBM- and CNN-LSTM-Based Blood Pressure Estimation from PPG Signals with Interpretability Analysis</h3>
+              <p data-i18n="projects.ppg.supervisor">BEng Individual Project · Supervisor: Professor Caroline Li</p>
               <ul>
-                <li data-i18n="projects.ppg.item1">I trained LightGBM on features extracted from individual pulses and a CNN–LSTM on waveform sequences.</li>
-                <li data-i18n="projects.ppg.item2">On patients held out from training, the two models achieved similar prediction errors.</li>
-                <li data-i18n="projects.ppg.item3">I used SHAP to examine which features contributed most to the LightGBM estimates.</li>
+                <li data-i18n="projects.ppg.item1">Integrated physiological waveform data from MIMIC-BP with clinical information from MIMIC-III.</li>
+                <li data-i18n="projects.ppg.item2">Preprocessed PPG signals and detected key fiducial points to segment individual pulse cycles.</li>
+                <li data-i18n="projects.ppg.item3">Extracted morphological, time-domain, frequency-domain and amplitude-related features from the segmented cycles.</li>
+                <li data-i18n="projects.ppg.item4">Developed a LightGBM model to estimate blood pressure from engineered PPG features and clinical variables.</li>
+                <li data-i18n="projects.ppg.item5">Built an end-to-end CNN-LSTM model to estimate blood pressure from raw PPG sequences and clinical variables.</li>
+                <li data-i18n="projects.ppg.item6">Applied SHAP to quantify feature contributions, interpret model predictions and guide feature selection and dimensionality reduction.</li>
               </ul>
             </article>
 
