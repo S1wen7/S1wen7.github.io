@@ -12,8 +12,8 @@ const translations = {
     "profile.cv_en": "CV (English)",
     "profile.cv_zh": "CV (Chinese)",
     "hero.eyebrow": "Academic Homepage",
-    "hero.title": "Control, automation, and intelligent sensing",
-    "hero.summary": "I am an MSc student at Nanyang Technological University, with training in electrical and electronic engineering, avionics, control systems, machine learning, robotics, and signal processing.",
+    "hero.title": "Control & AI",
+    "hero.summary": "My background is in automation and control. During my internship at COMAC, I worked on flight-control algorithms and tested my calculations against experimental data. For my undergraduate project, I used machine learning to estimate blood pressure from pulse signals. I’m now pursuing an MSc in Computer Control and Automation at Nanyang Technological University in Singapore, where I fine-tuned a language model to classify sentiment in product reviews.",
     "about.title": "About",
     "about.body": "My current interests sit at the intersection of control systems, automation, intelligent sensing, and machine learning. I have worked on blood pressure estimation from PPG signals using machine learning and deep learning methods, and I previously interned in flight control systems at COMAC Shanghai Aircraft Design and Research Institute.",
     "education.title": "Education",
@@ -26,11 +26,11 @@ const translations = {
     "education.nuaa.title": "Nanjing University of Aeronautics and Astronautics",
     "education.nuaa.degree": "BEng study, Automation (Avionics and Control)",
     "education.nuaa.detail": "Average: 82/100. Coursework covered digital circuits, analog electronics, computer hardware, circuit theory, Python, mathematics, and physics.",
-    "projects.title": "Academic Projects",
-    "projects.ppg.title": "Quantifying Blood Pressure from PPG Signals Using Algorithms",
-    "projects.ppg.item1": "Processed PPG signals and extracted features for blood pressure estimation.",
-    "projects.ppg.item2": "Built LightGBM and hybrid CNN-LSTM models for prediction.",
-    "projects.ppg.item3": "Applied SHAP analysis to study interpretability and feature contributions.",
+    "projects.title": "Featured project",
+    "projects.ppg.title": "Estimating blood pressure from pulse signals",
+    "projects.ppg.item1": "I trained LightGBM on features extracted from individual pulses and a CNN–LSTM on waveform sequences.",
+    "projects.ppg.item2": "On patients held out from training, the two models achieved similar prediction errors.",
+    "projects.ppg.item3": "I used SHAP to examine which features contributed most to the LightGBM estimates.",
     "projects.robot.title": "JIMU Robot Combat Competition",
     "projects.robot.item1": "Designed and decomposed the robot's mechanical structure.",
     "projects.robot.item2": "Built the combat structure for the robot platform.",
@@ -48,7 +48,7 @@ const translations = {
     "skills.ai": "Machine learning and deep learning model training",
     "skills.analysis": "Logical thinking, learning ability, and pressure resilience",
     "skills.teamwork": "Communication and teamwork",
-    "footer.text": "Built with a GitHub Pages academic homepage structure inspired by Academic Pages."
+    "footer.text": "Hao Wang · Control & AI"
   },
   zh: {
     "nav.education": "教育背景",
@@ -63,8 +63,8 @@ const translations = {
     "profile.cv_en": "英文简历",
     "profile.cv_zh": "中文简历",
     "hero.eyebrow": "个人学术主页",
-    "hero.title": "控制、自动化与智能感知",
-    "hero.summary": "我目前就读于新加坡南洋理工大学计算机控制与自动化硕士项目，具备电气电子工程、航空电子与控制、机器学习、机器人和信号处理等方向的学习与项目经历。",
+    "hero.title": "控制与人工智能",
+    "hero.summary": "我的专业背景是自动化与控制。在中国商飞飞控系统部实习期间，我参与了飞控算法研究，推导惯性参数修正公式，并用实验数据进行仿真验证。本科毕设让我有机会把机器学习用在一个具体问题上：能否通过脉搏波信号估计血压？目前，我在新加坡南洋理工大学攻读计算机控制与自动化硕士，并在课程项目中微调语言模型，识别商品评论的情感倾向。",
     "about.title": "个人简介",
     "about.body": "我的兴趣集中在控制系统、自动化、智能感知与机器学习的交叉方向。本科毕业设计中，我使用机器学习和深度学习方法基于 PPG 信号估计血压；此前曾在中国商飞上海飞机设计研究院飞控系统部门实习，参与飞控系统基础算法研究和实验验证。",
     "education.title": "教育背景",
@@ -77,11 +77,11 @@ const translations = {
     "education.nuaa.title": "南京航空航天大学",
     "education.nuaa.degree": "本科阶段学习，自动化（航空电子与控制）",
     "education.nuaa.detail": "平均分：82/100。课程覆盖数字电路、模拟电子技术、计算机硬件基础、电路、电子学、Python、数学和物理等。",
-    "projects.title": "项目经历",
-    "projects.ppg.title": "基于 PPG 信号的血压算法估计",
-    "projects.ppg.item1": "对光电容积脉搏波（PPG）信号进行预处理与特征提取。",
-    "projects.ppg.item2": "使用 LightGBM 和 Hybrid CNN-LSTM 模型进行血压预测。",
-    "projects.ppg.item3": "应用 SHAP 方法分析模型可解释性与特征贡献。",
+    "projects.title": "精选项目",
+    "projects.ppg.title": "从脉搏波信号估计血压",
+    "projects.ppg.item1": "我从单个脉搏周期提取特征来训练 LightGBM，并用波形序列训练 CNN–LSTM。",
+    "projects.ppg.item2": "在未参与训练的患者上，两种模型的预测误差相近。",
+    "projects.ppg.item3": "我用 SHAP 分析哪些特征对 LightGBM 的血压估计影响最大。",
     "projects.robot.title": "“积木”机器人对抗赛",
     "projects.robot.item1": "参与机器人结构分解与设计。",
     "projects.robot.item2": "设计并搭建机器人对抗结构。",
@@ -99,7 +99,7 @@ const translations = {
     "skills.ai": "机器学习与深度学习模型训练",
     "skills.analysis": "逻辑思维、学习能力与抗压能力",
     "skills.teamwork": "沟通协作与团队合作",
-    "footer.text": "基于 GitHub Pages 学术主页结构制作，风格参考 Academic Pages。"
+    "footer.text": "汪昊 · 控制与人工智能"
   }
 };
 
